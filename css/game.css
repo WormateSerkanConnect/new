@@ -156,11 +156,13 @@ body {font-family: vuonghiep; }
   bottom:0;
   left:0;
   cursor: url(https://i.imgur.com/0zaJ1Jq.png), auto !important;
-  background-image: url(https://i.imgur.com/pWLFzxg.png);
-    background-repeat: no-repeat;
-    background-color: #e0e3bf !important;
-    
+  background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/16933.png);
+  background-repeat: no-repeat;
+  background-color: #e0e3bf !important;
+  background-size: cover;
 }
+
+canvas#background-canvas {}
 
 
 
@@ -1098,6 +1100,7 @@ body {font-family: vuonghiep; }
   /* display:inline-block; */
   float:right;
   /* border: #00ff21 1px solid; */
+  width: 2px;
 }
 
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #mm-store:hover {
@@ -4681,7 +4684,7 @@ width: 40px;
     border-radius: 5px;
     display: none;
     z-index: 9999;
-    color: #00f3ff;
+    color: #ff0000;
     width: 600px;
     height:530px;
     font-size: 15px;
@@ -4773,7 +4776,7 @@ width: 40px;
 
  .spancursor{
     border-bottom: solid;
-    background: #00f3ff;
+    background: #4f4f4f;
     line-height: 2;
     color: #000000;
     font-size: 16px;
@@ -4806,7 +4809,7 @@ button:hover{
 
 
 .phdr1 {
-    background: #00f3ff url(https://i.imgur.com/MWsmh5i.png);
+    background: #ff0000 url(https://i.imgur.com/MWsmh5i.png);
     text-align: left;
     padding-left: 10px;
     text-transform: uppercase;
@@ -4821,7 +4824,7 @@ button:hover{
 }
 .hg {
     line-height: 1;
-    background: #f7941d;
+    background: #ff0000;
     width: 60%;
     font-weight: 600;
     border-radius: 8px;
