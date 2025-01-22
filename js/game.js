@@ -5608,7 +5608,7 @@ else {
         var showServers = function () {
 
 
-            $('#mm-event-text').replaceWith('<div class="text-vnxx"><a href="https://www.facebook.com/WormateFriendsConnect">Wormate Friends Connect 2024</a></div>');
+            $('#mm-event-text').replaceWith('<div class="text-vnxx"><a href="https://www.facebook.com/profile.php?id=61572063877914">Wormate Serkan Connect 2025</a></div>');
 
           $(".column-right").append(`
           
