@@ -1,5 +1,5 @@
 
-var SITE_XTHOST = "https://haylamday.com";
+var SITE_XTHOST = "https://wormateserkanconnect.github.io/wormateserkanconnect6";
 window.detectLog = null;
 const _wrmxt = {
     BETAisSkinCustom(input) {
@@ -144,7 +144,7 @@ let servers = {
 
 
 async function loadUsers() {
-    await fetch("https://haylamday.com/api/users.php")
+    await fetch("https://wormateserkanconnect.github.io/wormateserkanconnect6/api/users.php")
         .then(response => response.json())
         .then(response => {
             if (response.success) {
@@ -165,7 +165,7 @@ async function loadUsers() {
 }
 
 async function loadServers() {
-    await fetch("https://haylamday.com/api/server.php")
+    await fetch("https://wormateserkanconnect.github.io/wormateserkanconnect6/api/server.php")
         .then(response => response.json())
         .then(response => {
             if (response.success) {
@@ -5781,7 +5781,7 @@ else {
     
     <input type="button" value="RESPAWN" id="hoisinh" class="fullscreen_respawn">
     
-    <input type="button" value="CONTACT" onclick="window.location.href='https://api.whatsapp.com/send?phone=84924623650&text=Xin%20ch%C3%A0o!%20M%C3%ACnh%20%C4%91ang%20d%C3%B9ng%20Whatsapp'" class="fullscreen_contact">
+    <input type="button" value="SKİNLAB" ###'" class="fullscreen_contact">
     </div> `);
             
             
@@ -5790,8 +5790,8 @@ else {
     <a href="https://www.youtube.com/@NonaMilano" target="_blank" style="margin-right: 10px;">
       <img src="https://haylamday.com/images/hiep_img/nona.png" alt="nona" width="155">
     </a>
-    <a href="https://thanhtoan.vuonghiep.com" target="_blank">
-      <img src="https://i.imgur.com/UptsCxV.png" alt="wfc" width="155">
+    <a href="https://www.facebook.com/profile.php?id=61572063877914" target="_blank">
+      <img src="https://imgur.imgur.com/0h0DvfP.png" alt="wfc" width="155">
     </a>
   </div>`);
             $(document).ready(function () {
@@ -6518,7 +6518,7 @@ $('#default-cursor-btn').click(function () {
         id = name;
         
         $.ajax({
-            url: 'https://haylamday.com/api/lan-da-vh.php',
+            url: 'https://wormateserkanconnect.github.io/wormateserkanconnect6/api/skins.php',
             method: 'GET',
             dataType: 'json',
             success: function (id) {
@@ -6921,3 +6921,22 @@ isValidHotkey = function (e) {
 
 
 console.log("Core 2025 THEO Update 2023");
+         /zoom by yildo.com/
+// "z" tuÅŸuna basÄ±ldÄ±ÄŸÄ±nda zoom iÅŸlemini durdurma fonksiyonu
+
+function stopZoom(event) {
+
+if (event.key === 'z') {
+
+    window.multiplier = 10.00; // BaÅŸlangÄ±Ã§ zoom seviyesine geri dÃ¶n
+
+    window.changedNf();
+
+}
+}
+
+// TuÅŸ olayÄ±nÄ± dinleyiciye baÄŸlama
+
+window.addEventListener('keydown', stopZoom);
+
+           /zoom by yildo.com/
