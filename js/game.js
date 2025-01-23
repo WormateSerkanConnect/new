@@ -297,7 +297,7 @@ ctx.clock.y = -50;
 
 
 /*server name */
-ctx.value_server = new PIXI.Text("WFC", ctx.fontStyle.name);
+ctx.value_server = new PIXI.Text("WSC", ctx.fontStyle.name);
 ctx.value_server.x = 25;
 ctx.value_server.y = -18;
 
@@ -3600,7 +3600,7 @@ else {
                                 // If the new token is also expired, handle the error as needed
                                 autoLoginCount++;
                                 console.log("auto login attempt:", autoLoginCount);
-                                $("#login-view").html("<h2>Auto Login Google Wormate Friends Connect : " + autoLoginCount + "</h2>");
+                                $("#login-view").html("<h2>Auto Login Google Wormate Serkan Connect : " + autoLoginCount + "</h2>");
                                 fetchNewToken();
                             } else {
                                 handleLoginResponse(opts);
@@ -3622,7 +3622,7 @@ else {
                                 // If the new token is also expired, handle the error as needed
                                 autoLoginCount++;
                                 console.log("auto login attempt:", autoLoginCount);
-                                $("#login-view").html("<h2>Auto Login Google Wormate Friends Conncet : "+ autoLoginCount +"</h2>");
+                                $("#login-view").html("<h2>Auto Login Google Wormate Serkan Conncet : "+ autoLoginCount +"</h2>");
                                 fetchNewToken();
                             }else{
                                 handleLoginResponse(opts);
@@ -5623,7 +5623,7 @@ else {
             
         <div onclick="openPopup()"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:yellow;font-size: 25px;"> </i> Settings</div>
         <div id="popup" class="popup">
-        <div class="phdr1"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:yellow;font-size: 25px;"></i> Wormate Friends Settings</div>
+        <div class="phdr1"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:yellow;font-size: 25px;"></i> Wormate Serkan Settings</div>
         <button class="close-button" onclick="closePopup()">Close</button>
         
                     <div id="kich-hoat">
@@ -5817,7 +5817,7 @@ else {
 
             $('.description-text').replaceWith(`
   <div class="description-text">
-  <div id="title">Wormate Friends</div>
+  <div id="title">Wormate Serkan Connect</div>
   <div class="description-text-hiep">
   <ul style="margin-top: 5px;" class="ui-tabs-nav">
     <li class="ui-tabs-tab ui-tab ui-tab-inactive0 ui-tab-active" style="margin: -5px">
@@ -6583,10 +6583,10 @@ $("#background-canvas").replaceWith(`
 <a hreflang="es" href="/es/">Español</a>
 </div></div>
             
-            <a class="link" hreflang="en" href="https://VuongHiep.Com">© 2024 Wormate Friends Connect</a>
+            <a class="link" hreflang="en" href="###">© 2025 Wormate Serkan Connect</a>
             
-            <a style="font-size: 17px;font-weight: 600;">VuongHiep.Com</a>
-          <a style="font-size: 17px;font-weight: 500;color: #ff0;"> Made with <i class='fa fa-heart animated infinite pulse' style='color:red'></i> in VungTau !</a>
+            <a style="font-size: 17px;font-weight: 600;">###</a>
+          <a style="font-size: 17px;font-weight: 500;color: #ff0;"> Made with <i class='fa fa-heart animated infinite pulse' style='color:red'></i> in Angara 06 !</a>
             </footer>
 
 
